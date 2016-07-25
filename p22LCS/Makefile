@@ -1,0 +1,2 @@
+LCS:
+	gcc LCS.c 

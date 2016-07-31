@@ -1,0 +1,21 @@
+/*
+ * alarmclock.c
+ *
+ *  Created on: Feb 2, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<sys/time.h>
+#include<time.h>
+int gettimeofday(struct timeval *tv,struct timezone *tz);
+int main(void)
+{
+	struct timeval tv;
+	while(1)
+	{
+		gettimeofday(&tv,0);
+		printf("time %u:%u\n",tv.tv_sec,tv.tv_usec);
+		sleep(2);
+	}
+	return 0;
+}

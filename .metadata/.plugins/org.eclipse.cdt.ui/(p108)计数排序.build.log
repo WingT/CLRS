@@ -1,0 +1,15 @@
+11:14:30 **** Incremental Build of configuration Debug for project (p108)计数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p108)计数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p108)计数排序"  ./sort.o   
+Finished building target: (p108)计数排序
+ 
+
+11:14:30 Build Finished (took 127ms)
+

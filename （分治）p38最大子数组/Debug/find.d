@@ -1,0 +1,1 @@
+find.o: ../find.c

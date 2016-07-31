@@ -1,0 +1,57 @@
+/*
+ * find.c
+ *
+ *  Created on: Feb 2, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+int min(int a,int b)
+{
+	return a<b?a:b;
+}
+int max(int a,int b)
+{
+	return a>b?a:b;
+}
+int dmax(int *num,int *nmin,int *nmax,int l,int r)
+{
+	int m,ldmax,rdmax,*lnmin,*lnmax,*rnmin,*rnmax;
+	if (l==r)
+	{
+		*nmin=num[l];
+		*nmax=num[r];
+		return -1;
+	}
+	if (r-l==1)
+	{
+		*nmin=min(num[l],num[r]);
+		*nmax=max(num[l],num[r]);
+		return num[r]-num[l];
+	}
+	else
+	{
+		lnmin=(int *)malloc(sizeof(int));
+		lnmax=(int *)malloc(sizeof(int));
+		rnmin=(int *)malloc(sizeof(int));
+		rnmax=(int *)malloc(sizeof(int));
+		m=(l+r)/2;
+		ldmax=dmax(num,lnmin,lnmax,l,m);
+		rdmax=dmax(num,rnmin,rnmax,m+1,r);
+		*nmin=min(*lnmin,*rnmin);
+		*nmax=max(*lnmax,*rnmax);
+		return max(max(ldmax,rdmax),*rnmax-*lnmin);
+	}
+}
+int main(void)
+{
+	int n,i,*num,*nmin,*nmax;
+	scanf("%d",&n);
+	num=(int *)malloc(sizeof(int)*n);
+	for (i=0;i<n;i++)
+		scanf("%d",&num[i]);
+	nmin=(int *)malloc(sizeof(int));
+	nmax=(int *)malloc(sizeof(int));
+	printf("%d",dmax(num,nmin,nmax,0,n-1));
+	return 0;
+}

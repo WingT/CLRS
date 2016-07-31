@@ -1,0 +1,28 @@
+/*
+ * merge.c
+ *
+ *  Created on: Feb 12, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+	int k,**num;
+	scanf("%d",&k);
+	num=(int **)malloc(sizeof(int *)*k);
+	int s=0,n,i,j;
+	for (i=0;i<k;i++)
+	{
+		scanf("%d",&n);
+		num[i]=(int *)malloc(sizeof(int)*(n+1));
+		*num[i]=n;
+		for (j=1;j<=n;j++)
+			scanf("%d",num[i]+j);
+		s+=n;
+	}
+	merge(**num);
+
+	return 0;
+}
+

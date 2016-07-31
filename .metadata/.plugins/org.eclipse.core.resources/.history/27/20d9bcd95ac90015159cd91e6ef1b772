@@ -1,0 +1,17 @@
+/*
+ * alarmclock.c
+ *
+ *  Created on: Feb 2, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<time.h>
+int main(void)
+{
+	time_t now;
+	struct tm *timenow;
+	time(&now);
+	timenow=localtime(&now);
+	printf("Local time is %s\n",asctime(timenow));
+	return 0;
+}

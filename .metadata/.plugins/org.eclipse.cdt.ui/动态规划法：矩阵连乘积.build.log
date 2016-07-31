@@ -1,0 +1,15 @@
+13:16:08 **** Incremental Build of configuration Debug for project 动态规划法：矩阵连乘积 ****
+make all 
+Building file: ../matrix.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"matrix.d" -MT"matrix.o" -o "matrix.o" "../matrix.c"
+Finished building: ../matrix.c
+ 
+Building target: 动态规划法：矩阵连乘积
+Invoking: Cross GCC Linker
+gcc  -o "动态规划法：矩阵连乘积"  ./matrix.o   
+Finished building target: 动态规划法：矩阵连乘积
+ 
+
+13:16:08 Build Finished (took 259ms)
+

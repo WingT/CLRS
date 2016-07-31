@@ -1,0 +1,15 @@
+23:18:37 **** Incremental Build of configuration Debug for project （分治）p38最大子数组 ****
+make all 
+Building file: ../find.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"find.d" -MT"find.o" -o "find.o" "../find.c"
+Finished building: ../find.c
+ 
+Building target: （分治）p38最大子数组
+Invoking: Cross GCC Linker
+gcc  -o "（分治）p38最大子数组"  ./find.o   
+Finished building target: （分治）p38最大子数组
+ 
+
+23:18:37 Build Finished (took 115ms)
+

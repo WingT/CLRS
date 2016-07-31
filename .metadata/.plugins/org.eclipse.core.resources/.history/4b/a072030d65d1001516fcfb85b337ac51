@@ -1,0 +1,64 @@
+/*
+ * heapsort.c
+ *
+ *  Created on: Feb 12, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+int maxheapify(int *num,int i,int *heapsize)
+{
+	int max,tmp;
+	while (i<=*heapsize)
+	{
+		max=i;
+		if (i*2<=*heapsize)
+			max=num[i]>num[i*2]?i:i*2;
+		if (i*2+1<=*heapsize)
+			max=num[max]>num[i*2+1]?max:i*2+1;
+		if (max==i)
+			break;
+		else
+		{
+			tmp=num[i];
+			num[i]=num[max];
+			num[max]=tmp;
+			i=max;
+		}
+	}
+	return 0;
+}
+int buildmaxheap(int *num,int n)
+{
+	int *heapsize=&n,i;
+	for (i=n/2;i>=1;i--)
+		maxheapify(num,i,heapsize);
+	return 0;
+}
+int heapsort(int *num,int n)
+{
+	int tmp,*heapsize;
+	buildmaxheap(num,n);
+	heapsize=(int *)malloc(sizeof(int));
+	for (*heapsize=n;*heapsize>=2;(*heapsize)--)
+	{
+		tmp=num[1];
+		num[1]=num[*heapsize];
+		num[*heapsize]=tmp;
+		maxheapify(num,1,heapsize-1);
+	}
+	return 0;
+}
+int main(void)
+{
+	int n,i,*num;
+	scanf("%d",&n);
+	num=(int *)malloc(sizeof(int)*(n+1));
+	for (i=1;i<=n;i++)
+		scanf("%d",&num[i]);
+	heapsort(num,n);
+	for(i=1;i<=n;i++)
+		printf("%d ",num[i]);
+	return 0;
+}
+

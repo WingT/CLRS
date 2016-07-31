@@ -1,0 +1,37 @@
+/*
+ * sort.c
+ *
+ *  Created on: Feb 14, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+int figk(int n)
+{
+	int c=0;
+	while (n!=0)
+	{
+		c++;
+		n=n/10;
+	}
+	return c;
+}
+int digitsort(int )
+int main(void)
+{
+	int *num,n,i,maxk=0,k,*result;
+	scanf("%d",&n);
+	num=(int *)malloc(sizeof(int));
+	result=(int *)malloc(sizeof(int)*(n+1));
+	for (i=0;i<n;i++)
+	{
+		scanf("%d",&num[i]);
+		maxk=figk(num[i])>maxk?figk(num[i]):maxk;
+	}
+	for (k=1;k<=maxk;k++)
+		digitsort(num,k,result);
+	for (i=1;i<=n;i++)
+		printf("%d ",result[i]);
+	return 0;
+}
+

@@ -1,0 +1,19 @@
+23:18:36 **** Build of configuration Debug for project n个数全排列 ****
+make all 
+Building file: ../code.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"code.d" -MT"code.o" -o "code.o" "../code.c"
+../code.c: In function ‘main’:
+../code.c:34:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../code.c
+ 
+Building target: n个数全排列
+Invoking: Cross GCC Linker
+gcc  -o "n个数全排列"  ./code.o   
+Finished building target: n个数全排列
+ 
+
+23:18:36 Build Finished (took 115ms)
+

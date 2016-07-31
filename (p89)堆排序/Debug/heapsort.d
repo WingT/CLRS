@@ -1,0 +1,1 @@
+heapsort.o: ../heapsort.c

@@ -1,0 +1,19 @@
+20:59:53 **** Incremental Build of configuration Debug for project hello world ****
+make all 
+Building file: ../hello world.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"hello world.d" -MT"hello\ world.d" -o "hello world.o" "../hello world.c"
+../hello world.c: In function ‘main’:
+../hello world.c:43:17: warning: unused variable ‘ch’ [-Wunused-variable]
+     int i,j,a,b,ch;
+                 ^
+Finished building: ../hello world.c
+ 
+Building target: hello world
+Invoking: Cross GCC Linker
+gcc  -o "hello world"  ./hello\ world.o   
+Finished building target: hello world
+ 
+
+20:59:54 Build Finished (took 185ms)
+

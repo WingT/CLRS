@@ -1,0 +1,1 @@
+code.o: ../code.c

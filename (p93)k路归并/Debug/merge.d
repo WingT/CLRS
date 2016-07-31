@@ -1,0 +1,1 @@
+merge.o: ../merge.c

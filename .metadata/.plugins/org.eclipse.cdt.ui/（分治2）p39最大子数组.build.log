@@ -1,0 +1,15 @@
+22:21:42 **** Incremental Build of configuration Debug for project （分治2）p39最大子数组 ****
+make all 
+Building file: ../max.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"max.d" -MT"max.o" -o "max.o" "../max.c"
+Finished building: ../max.c
+ 
+Building target: （分治2）p39最大子数组
+Invoking: Cross GCC Linker
+gcc  -o "（分治2）p39最大子数组"  ./max.o   
+Finished building target: （分治2）p39最大子数组
+ 
+
+22:21:42 Build Finished (took 115ms)
+

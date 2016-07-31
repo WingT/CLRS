@@ -1,0 +1,17 @@
+19:29:40 **** Incremental Build of configuration Debug for project (p95)快速排序 ****
+make all 
+make: Warning: File 'objects.mk' has modification time 21453 s in the future
+Building file: ../qsort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"qsort.d" -MT"qsort.o" -o "qsort.o" "../qsort.c"
+Finished building: ../qsort.c
+ 
+Building target: (p95)快速排序
+Invoking: Cross GCC Linker
+gcc  -o "(p95)快速排序"  ./qsort.o   
+Finished building target: (p95)快速排序
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+19:29:40 Build Finished (took 224ms)
+

@@ -1,0 +1,711 @@
+!SESSION 2016-01-16 13:28:10.032 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-16 13:29:01.486
+!MESSAGE Indexed 'helloworld' (0 sources, 0 headers) in 0.008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2016-01-16 13:40:16.864
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2016-01-16 13:40:16.867
+!MESSAGE Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2016-01-16 13:40:34.790
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2016-01-16 13:40:34.790
+!MESSAGE Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2016-01-16 13:40:50.292
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2016-01-16 13:40:50.293
+!MESSAGE Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2016-01-16 13:52:25.607
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2016-01-16 13:52:25.607
+!MESSAGE Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+!STACK 0
+java.io.IOException: Exec_tty error:Cannot run program "/home/wing/workspace/helloworld/Debug/helloworld.o": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec_pty(Spawner.java:387)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:99)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:98)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.exec(LocalRunLaunchDelegate.java:149)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:94)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:63)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-16 13:53:01.837
+!MESSAGE Indexed 'hello world' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-16 13:57:02.769
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-16 13:57:12.228
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-16 13:57:23.069
+!MESSAGE Program file does not exist
+!SESSION 2016-01-20 15:53:30.179 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-01-20 16:10:37.366
+!MESSAGE Error: Cannot run program "stap": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "stap": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:194)
+	at org.eclipse.linuxtools.internal.profiling.launch.LocalLauncher.execute(LocalLauncher.java:38)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:294)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:239)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:187)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TapsetParser.runLocalStap(TapsetParser.java:175)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TapsetParser.runStap(TapsetParser.java:151)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.ProbeParser.addStaticProbes(ProbeParser.java:95)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.ProbeParser.runAction(ProbeParser.java:77)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TreeTapsetParser.run(TreeTapsetParser.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-01-20 16:10:37.369
+!MESSAGE Error: Cannot run program "stap": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "stap": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:194)
+	at org.eclipse.linuxtools.internal.profiling.launch.LocalLauncher.execute(LocalLauncher.java:38)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:294)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:239)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:187)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TapsetParser.runLocalStap(TapsetParser.java:175)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TapsetParser.runStap(TapsetParser.java:151)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.SharedParser.runAction(SharedParser.java:108)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.SharedParser.getTapsetContents(SharedParser.java:99)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.FunctionParser.runAction(FunctionParser.java:76)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.tparsers.TreeTapsetParser.run(TreeTapsetParser.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.linuxtools.systemtap.ui.ide 4 0 2016-01-20 16:10:37.440
+!MESSAGE Cannot run SystemTap. Make sure SystemTap is installed.
+
+!ENTRY org.eclipse.linuxtools.systemtap.ui.ide 4 0 2016-01-20 16:10:37.441
+!MESSAGE Cannot run SystemTap. Make sure SystemTap is installed.
+!SESSION 2016-01-21 09:52:10.717 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 09:53:04.346
+!MESSAGE Indexed '动态规划法：矩阵连乘积' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 09:59:50.119
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 10:00:12.411
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 10:00:21.754
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 10:01:49.773
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 10:02:01.475
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 10:03:42.724
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-01-21 13:04:43.080 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 13:17:26.918
+!MESSAGE Indexed 'p349动态规划法：矩阵连乘积' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-01-21 15:21:12.639 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 15:22:11.164
+!MESSAGE Indexed 'p358爬山搜索' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 15:24:13.007
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 16:48:13.329
+!MESSAGE Indexed 'n个数全排列' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 16:58:37.545
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-21 16:59:02.609
+!MESSAGE Program file does not exist
+!SESSION 2016-01-21 18:21:43.473 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 21:01:33.145
+!MESSAGE Indexed '归并排序（两个文件）' (1 sources, 17 headers) in 0.192 sec: 521 declarations; 1,153 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-21 21:09:02.246
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-01-21 22:12:21.718 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-01-21 22:12:23.277
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-01-30 21:36:22.631 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-01-30 21:36:41.236
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.epp.internal.logging.aeri.ide.Startup$1
+!SESSION 2016-01-31 14:39:57.477 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-31 14:40:42.175
+!MESSAGE Indexed '插入排序' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-31 14:45:15.276
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-31 14:45:44.909
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-31 14:45:56.067
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-31 15:03:03.290
+!MESSAGE Indexed '归并排序' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-01-31 17:11:54.637 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-01-31 21:20:49.835
+!MESSAGE Program file does not exist
+!SESSION 2016-02-01 09:10:56.611 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-01 09:11:44.714
+!MESSAGE Indexed '二分查找' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-01 09:26:32.721
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-01 09:26:45.806
+!MESSAGE Program file does not exist
+!SESSION 2016-02-01 09:35:17.686 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-01 10:46:13.119
+!MESSAGE Indexed '2-4逆序对' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-02 10:43:28.612 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-02 10:46:05.717
+!MESSAGE Indexed 'alarmclock' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-02 10:54:59.479
+!MESSAGE Program file does not exist
+!SESSION 2016-02-02 11:21:12.395 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-02 11:21:13.855
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-02 14:37:51.720
+!MESSAGE Program file does not exist
+!SESSION 2016-02-02 21:59:00.816 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-02 22:00:09.495
+!MESSAGE Indexed 'p38最大子数组' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-02 22:02:26.756
+!MESSAGE Program file does not exist
+!SESSION 2016-02-02 23:06:06.047 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-02 23:06:07.598
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-02 23:11:46.575
+!MESSAGE Indexed '（分治）p38最大子数组' (1 sources, 37 headers) in 0.345 sec: 1,066 declarations; 1,999 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-04 10:37:04.080 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-04 10:38:45.683
+!MESSAGE Indexed '(动归)p39最大子数组' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-04 10:39:07.476
+!MESSAGE Indexed '（动归）p39最大子数组' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-04 10:41:34.340
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-04 10:53:24.018
+!MESSAGE Indexed '（分治2）p39最大子数组' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-05 10:19:06.328 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-05 10:42:43.767
+!MESSAGE Indexed 'udp-server' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.jface 2 0 2016-02-05 12:01:09.094
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-05 12:01:09.094
+!MESSAGE A conflict occurred for ALT+ARROW_LEFT:
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.backwardMacroExpansion,Back,
+		Steps backward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fc41d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.backwardHistory,Backward History,
+		Move backward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1465985,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-05 12:01:09.094
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.forwardMacroExpansion,Forward,
+		Steps forward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19f339f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.forwardHistory,Forward History,
+		Move forward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f61cf7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-05 12:01:09.094
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e7cac8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Opens an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e7cac8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-05 13:54:09.905
+!MESSAGE Indexed 'udp--client' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-10 09:51:08.774 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-10 09:52:02.568
+!MESSAGE Indexed '(线性)p39最大子数组' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-12 15:52:01.327 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-12 15:52:49.723
+!MESSAGE Indexed '(p89)堆排序' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-12 18:14:08.729
+!MESSAGE Indexed '(p93)k路归并' (0 sources, 0 headers) in 0.021 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-12 20:25:32.234 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 21:50:24.959
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 21:51:46.492
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 21:51:48.266
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:13:07.074
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:25:49.427
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:26:43.796
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-12 22:26:49.402
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1b0eca2): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-12 22:26:49.402
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-12 22:26:49.415
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@502def): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-12 22:26:49.415
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-12 22:26:49.430
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@e0ce6e): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-12 22:26:49.430
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-12 22:26:49.444
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@4bb319): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-12 22:26:49.444
+!MESSAGE Context cannot be suspended.
+!SESSION 2016-02-12 22:26:52.226 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:27:30.126
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:28:39.671
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/isoc99_scanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:28:47.466
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/../libio/libioP.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:28:51.655
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/vfscanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-12 22:28:53.607
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/string/../sysdeps/i386/i686/multiarch/strcat.S
+!SESSION 2016-02-13 16:46:54.104 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:47:30.635
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:02.242
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/isoc99_scanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:03.482
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/../libio/libioP.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:08.309
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/vfscanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:08.705
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/string/../sysdeps/i386/i686/multiarch/strcat.S
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:15.544
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/genops.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:16.984
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/fileops.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:18.190
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/filedoalloc.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:20.249
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/../sysdeps/unix/sysv/linux/sys/sysmacros.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:22.563
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/libioP.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:53.937
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/fileops.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:57.623
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/libio/genops.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:48:58.738
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/vfscanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:49:00.873
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/../sysdeps/pthread/allocalim.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:49:41.711
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/../libio/libioP.h
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:49:41.770
+!MESSAGE Unable to locate file: /build/buildd/glibc-2.21/stdio-common/isoc99_scanf.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:49:42.090
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:51:18.944
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:52:23.074
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2016-02-13 16:53:34.872
+!MESSAGE Unable to locate file: /home/wing/workspace/(p93)k\350\267\257\345\275\222\345\271\266/merge.c
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-13 10:48:09.395
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@9373e8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-13 10:48:09.395
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-02-13 10:48:09.408
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1d002db): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-02-13 10:48:09.408
+!MESSAGE Context cannot be suspended.
+!SESSION 2016-02-14 01:09:07.051 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-14 01:10:06.993
+!MESSAGE Indexed '(p95)快速排序' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-13 21:23:35.877 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-13 21:24:34.454
+!MESSAGE Indexed '(p106)对区间的模糊排序' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2016-02-13 22:09:53.810
+!MESSAGE Program file does not exist
+!SESSION 2016-02-14 09:46:40.642 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-14 10:03:48.786
+!MESSAGE Indexed '(p108)计数排序' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-14 11:18:28.372
+!MESSAGE Indexed '(p111)基数排序' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-02-15 13:23:08.868 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-15 16:16:33.694
+!MESSAGE Indexed '(p112)对0到n^3-1范围内的n个数排序' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

@@ -1,0 +1,47 @@
+/*
+ * qsort.c
+ *
+ *  Created on: Feb 14, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int sort(int *num,int l,int r)
+{
+	int i=l-1,j,q,tmp;
+	q=rand()%(r-l);
+	tmp=num[l+q];
+	num[l+q]=num[r];
+	num[r]=tmp;
+	if (r<=l) return 0;
+	for (j=l;j<=r-1;j++)
+		if (num[j]<=num[r])
+		{
+			i++;
+			tmp=num[i];
+			num[i]=num[j];
+			num[j]=tmp;
+		}
+	tmp=num[i+1];
+	num[i+1]=num[r];
+	num[r]=tmp;
+	q=i==r-1?((l+r)/2):i+1;
+	sort(num,l,q-1);
+	sort(num,q+1,r);
+	return 0;
+}
+int main(void)
+{
+	int *num,n,i;
+	time_t t;
+	scanf("%d",&n);
+	for (i=0;i<n;i++)
+		scanf("%d",&num[i]);
+	srand((unsigned int)time(&t));
+	sort(num,0,n-1);
+	for (i=0;i<n;i++)
+		printf("%d ",num[i]);
+	return 0;
+}
+

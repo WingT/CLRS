@@ -1,0 +1,15 @@
+23:18:35 **** Incremental Build of configuration Debug for project 2-4逆序对 ****
+make all 
+Building file: ../count.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"count.d" -MT"count.o" -o "count.o" "../count.c"
+Finished building: ../count.c
+ 
+Building target: 2-4逆序对
+Invoking: Cross GCC Linker
+gcc  -o "2-4逆序对"  ./count.o   
+Finished building target: 2-4逆序对
+ 
+
+23:18:35 Build Finished (took 174ms)
+

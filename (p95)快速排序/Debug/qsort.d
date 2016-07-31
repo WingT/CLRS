@@ -1,0 +1,1 @@
+qsort.o: ../qsort.c

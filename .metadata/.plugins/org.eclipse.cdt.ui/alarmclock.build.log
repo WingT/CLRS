@@ -1,0 +1,15 @@
+23:18:36 **** Incremental Build of configuration Debug for project alarmclock ****
+make all 
+Building file: ../alarmclock.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"alarmclock.d" -MT"alarmclock.o" -o "alarmclock.o" "../alarmclock.c"
+Finished building: ../alarmclock.c
+ 
+Building target: alarmclock
+Invoking: Cross GCC Linker
+gcc  -o "alarmclock"  ./alarmclock.o   
+Finished building target: alarmclock
+ 
+
+23:18:36 Build Finished (took 168ms)
+

@@ -1,0 +1,70 @@
+/*
+ * merge.c
+ *
+ *  Created on: Feb 12, 2016
+ *      Author: wing
+ */
+#include<stdio.h>
+#include<stdlib.h>
+#define max 32767
+int maxheapify(int **tmp,int i,int heapsize)
+{
+	int maxi,*t;
+	while (1)
+	{
+		maxi=i;
+		if (i*2<=heapsize)
+			maxi=*tmp[i]>*tmp[i*2]?i:i*2;
+		if (i*2+1<=heapsize)
+			maxi=*tmp[maxi]>*tmp[i*2+1]?maxi:i*2+1;
+		if (maxi==i)
+			break;
+		else
+		{
+			t=tmp[i];
+			tmp[i]=tmp[maxi];
+			tmp[maxi]=t;
+			i=maxi;
+		}
+	}
+	return 0;
+}
+int buildmaxheap(int **tmp,int k)
+{
+	int i;
+	for (i=k/2;i>=1;i--)
+		maxheapify(tmp,i,k);
+	return 0;
+}
+int merge(int **num,int k,int *result)
+{
+	int **tmp,i;
+	tmp=(int **)malloc(sizeof(int*)*(k+1));
+	for (i=1;i<=k;i++)
+		tmp[i]=num[i];
+	buildmaxheap(tmp,k);
+
+}
+int main(void)
+{
+	int k,**num,*result;
+	scanf("%d",&k);
+	num=(int **)malloc(sizeof(int *)*k);
+	int s=0,n,i,j;
+	for (i=0;i<k;i++)
+	{
+		scanf("%d",&n);
+		num[i]=(int *)malloc(sizeof(int)*(n+2));
+		*num[i]=n;
+		for (j=1;j<=n;j++)
+			scanf("%d",num[i]+j);
+		*(num[i]+n+1)=max;
+		s+=n;
+	}
+	result=(int *)malloc(sizeof(int)*s);
+	merge(num,k,result);
+    for (i=0;i<s;i++)
+    	printf("%d ",result[i]);
+	return 0;
+}
+

@@ -1,0 +1,6 @@
+17:34:00 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+make: Nothing to be done for 'all'.
+
+17:34:00 Build Finished (took 68ms)
+

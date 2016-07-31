@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;归并排序（两个文件）&apos;" deleteContents="true" description="Delete resource &apos;归并排序（两个文件）&apos;" element1="/归并排序（两个文件）" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454223747064"/>
+</session>

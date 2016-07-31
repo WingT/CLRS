@@ -1,0 +1,165 @@
+16:46:04 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+16:46:16 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+make: Nothing to be done for 'all'.
+16:47:30 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+16:50:09 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+16:52:39 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+16:54:33 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:16:06 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:18:49 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:19:38 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:20:01 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:20:09 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+make: Nothing to be done for 'all'.
+17:21:39 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:31:38 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:33:05 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:33:52 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+Building file: ../sort.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sort.d" -MT"sort.o" -o "sort.o" "../sort.c"
+Finished building: ../sort.c
+ 
+Building target: (p112)对0到n^3-1范围内的n个数排序
+Invoking: Cross GCC Linker
+gcc  -o "(p112)对0到n^3-1范围内的n个数排序"  ./sort.o   
+Finished building target: (p112)对0到n^3-1范围内的n个数排序
+ 
+17:34:00 **** Incremental Build of configuration Debug for project (p112)对0到n^3-1范围内的n个数排序 ****
+make all 
+make: Nothing to be done for 'all'.

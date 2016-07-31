@@ -1,0 +1,15 @@
+11:48:33 **** Incremental Build of configuration Debug for project (p93)k路归并 ****
+make all 
+Building file: ../merge.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"merge.d" -MT"merge.o" -o "merge.o" "../merge.c"
+Finished building: ../merge.c
+ 
+Building target: (p93)k路归并
+Invoking: Cross GCC Linker
+gcc  -o "(p93)k路归并"  ./merge.o   
+Finished building target: (p93)k路归并
+ 
+
+11:48:33 Build Finished (took 115ms)
+

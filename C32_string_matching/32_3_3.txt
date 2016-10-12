@@ -1,0 +1,1 @@
+delta(q,p[q+1])=q+1,others equals 0 or 1.
